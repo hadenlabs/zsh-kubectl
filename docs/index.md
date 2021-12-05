@@ -1,1 +1,1 @@
-# Welcome to zsh-plugin-template documentation
+# Welcome to zsh-kubectl documentation

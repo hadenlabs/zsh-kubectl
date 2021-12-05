@@ -1,8 +1,8 @@
-<!-- Space: ZshPluginTemplate -->
+<!-- Space: ZshKubectl -->
 <!-- Parent: Project -->
 <!-- Title: Env Vars -->
 
-<!-- Label: ZshPluginTemplate -->
+<!-- Label: ZshKubectl -->
 <!-- Label: Project -->
 <!-- Label: Env Vars -->
 <!-- Include: docs/disclaimer.md -->

@@ -1,4 +1,4 @@
-site_name: zsh-plugin-template Documentation
+site_name: zsh-kubectl Documentation
 theme: 'material'
 markdown_extensions:
   - toc:
@@ -15,8 +15,8 @@ extra:
   font:
     text: 'Source Sans Pro'
 
-repo_name: 'hadenlabs/zsh-plugin-template'
-repo_url: 'https://github.com/hadenlabs/zsh-plugin-template'
+repo_name: 'hadenlabs/zsh-kubectl'
+repo_url: 'https://github.com/hadenlabs/zsh-kubectl'
 copyright: 'Copyright © 2021 <a href="https://hadenlabs.com">hadenlabs</a>'
 
 google_analytics:

@@ -1,8 +1,8 @@
-<!-- Space: ZshPluginTemplate -->
+<!-- Space: ZshKubectl -->
 <!-- Parent: Project -->
 <!-- Title: Commands -->
 
-<!-- Label: ZshPluginTemplate -->
+<!-- Label: ZshKubectl -->
 <!-- Label: Project -->
 <!-- Label: Commands -->
 <!-- Include: docs/disclaimer.md -->
