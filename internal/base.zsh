@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 function kubectl::internal::load::completion {
+    # shellcheck source=/dev/null
     source <(kubectl completion zsh)
 }
 
@@ -21,4 +22,33 @@ function kubectl::internal::krew::load {
     if core::exists kubectl; then
         [ -e "${KREW_ROOT_BIN}" ] && export PATH="${KREW_ROOT_BIN}:${PATH}"
     fi
+}
+
+function kubectl::internal::plugin::install {
+    if ! core::exists kubectl-krew; then
+        message_warning "it's necessary have krew"
+        return
+    fi
+    message_info "Installing krew plugin ${1}"
+    kubectl krew install "${1}"
+    message_success "Installed ${1} krew plugin"
+}
+
+function kubectl::internal::plugins::install {
+    if ! core::exists kubectl-krew; then
+        message_warning "it's necessary have krew"
+        return
+    fi
+
+    if ! core::exists kubectl; then
+        message_warning "it's necessary have kubectl"
+        return
+    fi
+
+    message_info "Installing required krew plugins"
+
+    for plugin in "${KREW_PLUGINS[@]}"; do
+        kubectl::internal::plugin::install "${plugin}"
+    done
+    message_success "Installed required krew plugins"
 }
