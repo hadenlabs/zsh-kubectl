@@ -19,7 +19,9 @@ function kubectl::internal::main::factory {
 }
 
 kubectl::internal::main::factory
+kubectl::internal::krew::load
 
 if ! core::exists kubectl; then core::install kubectl; fi
+if ! core::exists kubectl-krew; then kubectl::internal::krew::install; fi
 
 kubectl::internal::load::completion
