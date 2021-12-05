@@ -1,4 +1,4 @@
-origin: github.com/hadenlabs/zsh-plugin-template
+origin: github.com/hadenlabs/zsh-kubectl
 issue_tracker: GITHUB
 auth:
   type: none

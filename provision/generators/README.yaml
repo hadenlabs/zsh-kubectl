@@ -5,13 +5,13 @@
 #
 
 # Name of this project
-name: zsh-plugin-template
+name: zsh-kubectl
 
 email:
   support: support@hadenlabs.com
 
 confluence:
-  space: ZshPluginTemplate
+  space: ZshKubectl
   title: Project
 
 # Logo for this project
@@ -21,16 +21,16 @@ confluence:
 license: 'LGPL-3.0'
 
 # Canonical GitHub repo
-github_repo: hadenlabs/zsh-plugin-template
+github_repo: hadenlabs/zsh-kubectl
 
 # Badges to display
 badges:
   - name: Latest Release
-    image: https://img.shields.io/github/release/hadenlabs/zsh-plugin-template
-    url: https://github.com/hadenlabs/zsh-plugin-template/releases
+    image: https://img.shields.io/github/release/hadenlabs/zsh-kubectl
+    url: https://github.com/hadenlabs/zsh-kubectl/releases
   - name: Lint
-    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/lint-code
-    url: https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=lint-code
+    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/lint-code
+    url: https://github.com/hadenlabs/zsh-kubectl/actions?workflow=lint-code
   - name: pre-commit
     image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
     url: https://github.com/pre-commit/pre-commit
@@ -51,16 +51,7 @@ requirements: |-
 
 # Short description of this project
 description: |-
-  zsh-plugin-template for project
-
-  ### Replace name project to New Project
-
-  ```bash
-    agr 'zsh-plugin-template' 'new-project'
-    agr 'plugin-template' 'name_template'
-    agr 'PLUGIN_TEMPLATE' 'NAME_TEMPLATE'
-    agr 'ZshPluginTemplate' 'NameTemplate'
-  ```
+  zsh-kubectl for project
 
 installation:
   - 'docs/include/installation/oh-my-zsh.md'

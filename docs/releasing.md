@@ -1,8 +1,8 @@
-<!-- Space: ZshPluginTemplate -->
+<!-- Space: ZshKubectl -->
 <!-- Parent: Project -->
 <!-- Title: Releasing -->
 
-<!-- Label: ZshPluginTemplate -->
+<!-- Label: ZshKubectl -->
 <!-- Label: Project -->
 <!-- Label: Releasing -->
 <!-- Include: docs/disclaimer.md -->
@@ -12,7 +12,7 @@
 
 ## Bump a new version
 
-Make a new version of zsh-plugin-template in the following steps:
+Make a new version of zsh-kubectl in the following steps:
 
 ### Generate version major
 

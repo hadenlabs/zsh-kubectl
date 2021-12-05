@@ -1,4 +1,4 @@
-<!-- Space: ZshPluginTemplate -->
+<!-- Space: ZshKubectl -->
 <!-- Parent: Project -->
 <!-- Title: Roadmap -->
 
@@ -30,7 +30,7 @@
 
 The Roadmap is a list of all the things we're working on for the year.
 
-You can see the corresponding projects on [zsh-plugin-template](https://github.com/hadenlabs/zsh-plugin-template)
+You can see the corresponding projects on [zsh-kubectl](https://github.com/hadenlabs/zsh-kubectl)
 
 ## Legend
 
