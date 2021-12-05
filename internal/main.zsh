@@ -21,3 +21,5 @@ function kubectl::internal::main::factory {
 kubectl::internal::main::factory
 
 if ! core::exists kubectl; then core::install kubectl; fi
+
+kubectl::internal::load::completion
