@@ -1,8 +1,8 @@
-<!-- Space: ZshPluginTemplate -->
+<!-- Space: ZshKubectl -->
 <!-- Parent: Project -->
 <!-- Title: Contributing -->
 
-<!-- Label: ZshPluginTemplate -->
+<!-- Label: ZshKubectl -->
 <!-- Label: Project -->
 <!-- Label: Contributing -->
 <!-- Include: docs/disclaimer.md -->
@@ -10,11 +10,11 @@
 
 # How To Contribute
 
-Contributions to zsh-plugin-template are welcome.
+Contributions to zsh-kubectl are welcome.
 
 Feel free to use all of the contribution options:
 
-- Contribute to zsh-plugin-template repositories on [GitHub](https://github.com/hadenlabs/zsh-plugin-template). See [Git flow](./contribute/git-flow.md).
+- Contribute to zsh-kubectl repositories on [GitHub](https://github.com/hadenlabs/zsh-kubectl). See [Git flow](./contribute/git-flow.md).
 
 ## Getting Started
 
@@ -75,7 +75,7 @@ See [Git flow](./contribute/git-flow.md).
 
 ### Documentation
 
-Documentation is a part of the zsh-plugin-template code base. You can find the documentation files in the `doc/` subdirectory of the [main repository](https://github.com/hadenlabs/zsh-plugin-template). This means that the contribution process is the same for both the source code and documentation.
+Documentation is a part of the zsh-kubectl code base. You can find the documentation files in the `doc/` subdirectory of the [main repository](https://github.com/hadenlabs/zsh-kubectl). This means that the contribution process is the same for both the source code and documentation.
 
 ### Testing
 
@@ -83,15 +83,15 @@ See [Testing](./testing.md).
 
 ### Code Submission
 
-1.  See if a [Pull Request](https://github.com/hadenlabs/zsh-plugin-template/pulls) exists
+1.  See if a [Pull Request](https://github.com/hadenlabs/zsh-kubectl/pulls) exists
     - Add some comments or review the code to help it along
     - Don\'t be afraid to comment when logic needs clarification
-2.  Create a Fork and open a [Pull Request](https://github.com/hadenlabs/zsh-plugin-template/pulls) if needed
+2.  Create a Fork and open a [Pull Request](https://github.com/hadenlabs/zsh-kubectl/pulls) if needed
 
 ### Code Review
 
 - Anyone can review code
-- Any [Pull Request](https://github.com/hadenlabs/zsh-plugin-template/pulls) should be closed or merged within a week
+- Any [Pull Request](https://github.com/hadenlabs/zsh-kubectl/pulls) should be closed or merged within a week
 
 ### Code Acceptance
 

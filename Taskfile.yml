@@ -33,7 +33,7 @@ dotenv:
   - .env
 
 vars:
-  PROJECT_NAME: zsh-plugin-template
+  PROJECT_NAME: zsh-kubectl
   ORGANIZATION: hadenlabs
   REVIEWERS: luismayta
   PYTHON_VERSION: 3.9.2
