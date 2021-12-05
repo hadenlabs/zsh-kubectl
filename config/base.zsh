@@ -10,10 +10,13 @@ export KREW_ROOT_BIN="${KREW_ROOT}/bin"
 
 export KREW_PLUGINS=(
 
+    # common
+    ctx
+    ns
+
     access-matrix
     ca-cert
     cluster-group
-    ctx
     debug-shell
     df-pv
     fuzzy
@@ -26,7 +29,6 @@ export KREW_PLUGINS=(
     node-admin
     node-restart
     node-shell
-    ns
     oidc-login
     open-svc
     outdated
