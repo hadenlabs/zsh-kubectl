@@ -31,3 +31,5 @@ alias ka="kubectl apply -f"
 # Logs
 alias kl="kubectl logs"
 alias klf="kubectl logs -f"
+
+alias kubectl="kubecolor"
