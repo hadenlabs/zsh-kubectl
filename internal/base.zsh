@@ -4,6 +4,9 @@
 function kubectl::internal::load::completion {
     # shellcheck source=/dev/null
     source <(kubectl completion zsh)
+    alias kubectl=kubecolor
+    # make completion work with kubecolor
+    compdef kubecolor=kubectl
 }
 
 function kubectl::internal::krew::install {
@@ -16,6 +19,12 @@ function kubectl::internal::krew::install {
     tar zxvf "${KREW}.tar.gz" &&
     ./"${KREW}" install krew)
     message_success "Installed KREW"
+}
+
+function kubectl::internal::kubecolor::install {
+    if ! core::exists kubecolor; then
+        brew install hidetatz/tap/kubecolor
+    fi
 }
 
 function kubectl::internal::krew::load {
