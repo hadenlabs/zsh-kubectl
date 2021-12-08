@@ -5,7 +5,7 @@ function kubectl::install {
     kubectl::internal::kubectl::install
 }
 
-function kubectl::plugins::all::install {
+function kubectl::plugins::install {
     kubectl::internal::plugins::install
 }
 
@@ -13,9 +13,9 @@ function kubectl::plugin::install {
     kubectl::internal::plugin::install "${@}"
 }
 
-function kubectl::post_install {
-    message_info "Post Install ${KUBECTL_PACKAGE_NAME}"
-    message_success "Success Install ${KUBECTL_PACKAGE_NAME}"
+function kubectl::after::install {
+    kubectl::plugins::install
+    kubectl::go:packages::install
 }
 
 function kubectl::go:packages::install {
