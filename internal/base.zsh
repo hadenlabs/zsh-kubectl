@@ -61,3 +61,24 @@ function kubectl::internal::plugins::install {
     done
     message_success "Installed required krew plugins"
 }
+
+function kubectl::go::internal::package::install {
+    if ! core::exists go; then
+        message_warning "it's necessary have go"
+        return
+    fi
+    message_info "Installing Go Package ${1}"
+    GO111MODULE=on go get "${1}"
+    message_success "Installed ${1} Go Package"
+}
+
+function kubectl::go::internal::packages::install {
+    if ! core::exists go; then
+        message_warning "${KUBECTL_MESSAGE_GO_NOT_FOUND}"
+        return
+    fi
+
+    for package in "${KUBECTL_GO_PACKAGES[@]}"; do
+        kubectl::go::internal::package::install "${package}"
+    done
+}
