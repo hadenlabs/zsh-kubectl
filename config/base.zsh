@@ -41,9 +41,15 @@ export KREW_PLUGINS=(
     socks5-proxy
     tree
     view-secret
+    who-can
+
+    schemahero
 
 )
 
 export KUBECTL_GO_PACKAGES=(
     sigs.k8s.io/kustomize/kustomize/v3
+
+    # who-can
+    github.com/aquasecurity/kubectl-who-can
 )
