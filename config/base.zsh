@@ -5,6 +5,7 @@ export KUBECTL_PACKAGE_NAME=kubectl
 export KUBECTL_MESSAGE_BREW="Please install brew or use antibody bundle hadenlabs/zsh-brew branch:develop"
 export KUBECTL_MESSAGE_PYENV="Please install brew or use antibody bundle hadenlabs/zsh-pyenv branch:develop"
 export KUBECTL_MESSAGE_NOT_FOUND="this not found installed"
+export KUBECTL_MESSAGE_GO_NOT_FOUND="Please install Go or use antibody bundle hadenlabs/zsh-goenv branch:develop"
 export KUBE_EDITOR="vim"
 if core::exists nvim; then
     export KUBE_EDITOR="nvim"
@@ -41,4 +42,8 @@ export KREW_PLUGINS=(
     tree
     view-secret
 
+)
+
+export KUBECTL_GO_PACKAGES=(
+    sigs.k8s.io/kustomize/kustomize/v3
 )
