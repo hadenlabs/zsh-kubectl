@@ -1,6 +1,6 @@
 <!-- Space: ZshKubectl -->
 <!-- Parent: Project -->
-<!-- Title: Components -->
+<!-- Title: Project Components -->
 
 <!-- Label: ZshKubectl -->
 <!-- Label: Project -->

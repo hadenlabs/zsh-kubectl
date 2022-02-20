@@ -1,7 +1,3 @@
-<!-- Space: ZshKubectl -->
-<!-- Parent: Project -->
-<!-- Title: Authors -->
-
 # Authors
 
 ## Leads

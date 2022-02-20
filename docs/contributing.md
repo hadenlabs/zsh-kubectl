@@ -1,6 +1,6 @@
 <!-- Space: ZshKubectl -->
 <!-- Parent: Project -->
-<!-- Title: Contributing -->
+<!-- Title: Project Contributing -->
 
 <!-- Label: ZshKubectl -->
 <!-- Label: Project -->
@@ -22,7 +22,7 @@ Feel free to use all of the contribution options:
 
 In general, MRs are welcome. We follow the typical "fork-and-pull" [Git flow](./contribute/git-flow.md).
 
-1.  **Fork** the repo on GitLab
+1.  **Fork** the repo on Github
 2.  **Clone** the project to your own machine
 3.  **Commit** changes to your own branch using [Git flow](./contribute/git-flow.md)
 4.  **Push** your work back up to your fork

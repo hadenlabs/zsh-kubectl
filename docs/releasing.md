@@ -1,6 +1,6 @@
 <!-- Space: ZshKubectl -->
 <!-- Parent: Project -->
-<!-- Title: Releasing -->
+<!-- Title: Project Releasing -->
 
 <!-- Label: ZshKubectl -->
 <!-- Label: Project -->
