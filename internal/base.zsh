@@ -33,6 +33,13 @@ function kubectl::internal::krew::load {
     fi
 }
 
+function kubectl::internal::crossplane::install {
+    message_info "Installing crossplane"
+    curl -sL https://raw.githubusercontent.com/crossplane/crossplane/master/install.sh | sh
+    mv kubectl-crossplane "${KUBECTL_LOCAL_PATH_BIN}/"
+    message_success "Installed crossplane"
+}
+
 function kubectl::internal::plugin::install {
     if ! core::exists kubectl-krew; then
         message_warning "it's necessary have krew"

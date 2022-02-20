@@ -24,6 +24,7 @@ kubectl::internal::krew::load
 if ! core::exists kubectl; then core::install kubectl; fi
 if ! core::exists kubectl-krew; then kubectl::internal::krew::install; fi
 if ! core::exists kubectl-ctx; then core::install kubectx; fi
+if ! core::exists kubectl-crossplane; then kubectl::internal::crossplane::install; fi
 if ! core::exists kubecolor; then kubectl::internal::kubecolor::install; fi
 
 kubectl::internal::load::completion
