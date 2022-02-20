@@ -6,6 +6,7 @@ export KUBECTL_MESSAGE_BREW="Please install brew or use antibody bundle hadenlab
 export KUBECTL_MESSAGE_PYENV="Please install brew or use antibody bundle hadenlabs/zsh-pyenv branch:develop"
 export KUBECTL_MESSAGE_NOT_FOUND="this not found installed"
 export KUBECTL_MESSAGE_GO_NOT_FOUND="Please install Go or use antibody bundle hadenlabs/zsh-goenv branch:develop"
+export KUBECTL_LOCAL_PATH_BIN="/usr/local/bin"
 export KUBE_EDITOR="vim"
 if core::exists nvim; then
     export KUBE_EDITOR="nvim"
