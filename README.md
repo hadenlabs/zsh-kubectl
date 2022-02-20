@@ -15,7 +15,7 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-kubectl)](https://github.com/hadenlabs/zsh-kubectl/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/lint-code)](https://github.com/hadenlabs/zsh-kubectl/actions?workflow=lint-code) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-kubectl)](https://github.com/hadenlabs/zsh-kubectl/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/lint-code)](https://github.com/hadenlabs/zsh-kubectl/actions?workflow=lint-code) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
 
 # zsh-kubectl
 
@@ -45,7 +45,7 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 
 ### [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) users
 
-If you're using [oh-my-zsh](https://gitub.com/robbyrussell/oh-my-zsh), install this plugin by doing the following:
+If you're using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), install this plugin by doing the following:
 
 1.  Go to your oh-my-zsh custom plugins directory -`cd ~/.oh-my-zsh/custom/plugins`
 2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-kubectl`bash
@@ -86,7 +86,7 @@ If you're using [Antibody](https://github.com/getantibody/antibody), install thi
 1.  Add :
 
 ```{.sourceCode .bash}
-     antibody bundle hadenlabs/zsh-kubectl
+antibody bundle hadenlabs/zsh-kubectl
 ```
 
 to your `.zshrc` where you're adding your other plugins.
@@ -131,7 +131,7 @@ Using the given version number of `MAJOR.MINOR.PATCH`, we apply the following co
 
 ## Copyright
 
-Copyright © 2018-2021 [Hadenlabs](https://hadenlabs.com)
+Copyright © 2018-2022 [Hadenlabs](https://hadenlabs.com)
 
 ## Trademarks
 
