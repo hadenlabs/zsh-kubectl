@@ -4,9 +4,8 @@
 function kubectl::internal::load::completion {
     # shellcheck source=/dev/null
     source <(kubectl completion zsh)
-    alias kubectl=kubecolor
     # make completion work with kubecolor
-    compdef kubecolor=kubectl
+    command -v kubecolor >/dev/null 2>&1 && compdef kubecolor=kubectl
 }
 
 function kubectl::internal::krew::install {
