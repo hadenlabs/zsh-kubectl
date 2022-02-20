@@ -1,6 +1,10 @@
 #!/usr/bin/env ksh
 # -*- coding: utf-8 -*-
 
+alias k='kubecolor'
+
+alias kubectl="kubecolor"
+
 # Utility
 alias kg='kubectl get'
 alias kd='kubectl describe'
@@ -31,5 +35,3 @@ alias ka="kubectl apply -f"
 # Logs
 alias kl="kubectl logs"
 alias klf="kubectl logs -f"
-
-alias kubectl="kubecolor"
