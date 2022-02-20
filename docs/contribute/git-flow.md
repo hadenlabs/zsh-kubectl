@@ -17,7 +17,7 @@ To contribute to zsh-kubectl project on [GitHub](https://github.com/hadenlabs/zs
 
 To follow the instructions in this guide and start contributing to zsh-kubectl project on Gitlab:
 
-1.  **Fork** the repo on GitLab
+1.  **Fork** the repo on GitHub
 2.  **Clone** the project to your own machine
 
 To synchronize with the main repository, add it to the remotes:
@@ -63,7 +63,7 @@ To resolve a conflict, run the following commands.
 
 ```bash
 # checkout a branch you open MR from
-git fetch upstream # assuming upstream is rfid/zsh-kubectl
+git fetch upstream # assuming upstream is hadenlabs/zsh-kubectl
 git merge upstream/merge_branch # Where merge_branch is a branch you open merge request against.
 # resolve merge requests
 git add changed_files

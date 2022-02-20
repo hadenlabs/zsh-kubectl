@@ -1,13 +1,3 @@
-<!-- Space: ZshKubectl -->
-<!-- Parent: Project -->
-<!-- Title: Troubleshooting -->
-
-<!-- Label: ZshKubectl -->
-<!-- Label: Project -->
-<!-- Label: Troubleshooting -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
-
 # Troubleshooting
 
 ## Environment

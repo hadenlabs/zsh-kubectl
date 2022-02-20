@@ -1,6 +1,6 @@
 <!-- Space: ZshKubectl -->
 <!-- Parent: Project -->
-<!-- Title: Env Vars -->
+<!-- Title: Project Env Vars -->
 
 <!-- Label: ZshKubectl -->
 <!-- Label: Project -->
