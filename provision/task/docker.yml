@@ -39,10 +39,9 @@ tasks:
       - task: check:docker
     cmds:
       - >-
-        docker buildx build
-        --platform={{.DOCKER_PLATFORMS}}
+        docker buildx build --platform={{.DOCKER_PLATFORMS}}
         --file Dockerfile
-        --tag {{.DOCKER_ORGANIZATION}}/{{.DOCKER_IMAGE_NAME}}:{{.APP_TAG}} .
+        --tag {{.DOCKER_ORGANIZATION}}/{{.IMAGE_NAME}}:{{.APP_TAG}} .
         --build-arg VERSION={{.APP_TAG}}
 
   publish:
@@ -50,12 +49,6 @@ tasks:
     run: once
     deps:
       - task: login
+      - task: build
     cmds:
-      - >-
-        docker buildx build
-        --no-cache
-        --platform={{.DOCKER_PLATFORMS}}
-        --file Dockerfile
-        --tag {{.DOCKER_ORGANIZATION}}/{{.DOCKER_IMAGE_NAME}}:{{.APP_TAG}} .
-        --build-arg VERSION={{.APP_TAG}}
-        --push
+      - docker push {{.DOCKER_ORGANIZATION}}/{{.IMAGE_NAME}}:{{.APP_TAG}}
