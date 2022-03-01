@@ -54,3 +54,7 @@ export KUBECTL_GO_PACKAGES=(
     # who-can
     github.com/aquasecurity/kubectl-who-can
 )
+
+export KUBECTL_GO_INSTALL=(
+    github.com/particledecay/kconf@latest
+)
