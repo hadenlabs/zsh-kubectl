@@ -1,9 +1,9 @@
-<!-- Space: ZshKubectl -->
-<!-- Parent: Project -->
-<!-- Title: Project Roadmap -->
+<!-- Space: Projects -->
+<!-- Parent: ZshKubectl -->
+<!-- Title: Roadmap ZshKubectl -->
 
 <!-- Label: Roadmap -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
 
 <!-- Macro: :todo:

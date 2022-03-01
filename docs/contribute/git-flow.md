@@ -1,12 +1,12 @@
-<!-- Space: ZshKubectl -->
-<!-- Parent: Project -->
-<!-- Title: Contributing GitFlow -->
+<!-- Space: Projects -->
+<!-- Parent: ZshKubectl -->
+<!-- Title: Contributing GitFlow ZshKubectl -->
 
 <!-- Label: ZshKubectl -->
 <!-- Label: Project -->
 <!-- Label: Contributing -->
 <!-- Label: GitFlow -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
 
 To contribute to zsh-kubectl project on [GitHub](https://github.com/hadenlabs/zsh-kubectl), We use Gitflow (See more [here](https://datasift.github.io/gitflow/IntroducingGitFlow.html)) In a nutshell, it means that you should branch from the main repository and contribute back by making [pull request](https://github.com/hadenlabs/zsh-kubectl/pulls).

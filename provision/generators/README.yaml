@@ -10,10 +10,6 @@ name: zsh-kubectl
 email:
   support: support@hadenlabs.com
 
-confluence:
-  space: ZshKubectl
-  title: Project
-
 # Logo for this project
 #logo: docs/logo.png
 
@@ -30,7 +26,10 @@ badges:
     url: https://github.com/hadenlabs/zsh-kubectl/releases
   - name: Lint
     image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/lint-code
-    url: https://github.com/hadenlabs/zsh-kubectl/actions?workflow=lint-code
+    url: https://github.com/hadenlabs/zsh-kubectl/actions
+  - name: Issues
+    image: https://img.shields.io/github/issues/hadenlabs/zsh-kubectl
+    url: https://github.com/hadenlabs/zsh-kubectl/issues
   - name: pre-commit
     image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
     url: https://github.com/pre-commit/pre-commit
@@ -45,7 +44,8 @@ requirements: |-
 
   This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
-  * [zsh-core](https://github.com/hadenlabs/zsh-core)
+  - [gomplate](https://github.com/hairyhenderson/gomplate)
+  - [Docker](https://www.docker.com)
   - [python](https://www.python.org)
   - [taskfile](https://github.com/go-task/task)
 

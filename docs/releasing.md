@@ -1,11 +1,11 @@
-<!-- Space: ZshKubectl -->
-<!-- Parent: Project -->
-<!-- Title: Project Releasing -->
+<!-- Space: Projects -->
+<!-- Parent: ZshKubectl -->
+<!-- Title: Releasing ZshKubectl -->
 
 <!-- Label: ZshKubectl -->
 <!-- Label: Project -->
 <!-- Label: Releasing -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
 
 # Releasing

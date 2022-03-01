@@ -1,11 +1,10 @@
-<!-- Space: ZshKubectl -->
-<!-- Parent: Project -->
-<!-- Title: Project Contributing -->
+<!-- Space: Projects -->
+<!-- Parent: ZshKubectl -->
+<!-- Title: Contributing ZshKubectl -->
 
 <!-- Label: ZshKubectl -->
-<!-- Label: Project -->
 <!-- Label: Contributing -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
 
 # How To Contribute
