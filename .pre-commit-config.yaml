@@ -1,5 +1,11 @@
 default_stages:
   - commit
+exclude: >
+  (?x)^(
+    ^(\/|)vendor\/(.*?)$|
+    .+\.node_modules\/.*$|
+    .+\.lock$|
+  )$
 
 repos:
   - repo: https://github.com/codespell-project/codespell
@@ -7,13 +13,6 @@ repos:
     hooks:
       - id: codespell
         args: [--ignore-words=.codespell-ignores]
-        exclude: >
-          (?x)^(
-            .+\.vendor\/.*$|
-            .+\.node_modules\/.*$|
-            .+\wordlist.txt$|
-            .+\.lock$|
-          )$
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
     rev: v8.0.0
     hooks:
