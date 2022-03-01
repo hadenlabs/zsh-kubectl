@@ -1,12 +1,11 @@
-<!-- Space: ZshKubectl -->
-<!-- Parent: Project -->
-<!-- Title: Project Installation Antigen -->
+<!-- Space: Projects -->
+<!-- Parent: ZshKubectl -->
+<!-- Title: Installation Antigen ZshKubectl -->
 
 <!-- Label: ZshKubectl -->
-<!-- Label: Project -->
 <!-- Label: Installation -->
 <!-- Label: Antigen -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: ../../disclaimer.md -->
 <!-- Include: ac:toc -->
 
 ### [antigen](https://github.com/zsh-users/antigen) users
