@@ -1,6 +1,3 @@
- <!-- Space: ZshKubectl -->
-<!-- Title: Project -->
-
 <!--
 
 
@@ -15,7 +12,7 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-kubectl)](https://github.com/hadenlabs/zsh-kubectl/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/lint-code)](https://github.com/hadenlabs/zsh-kubectl/actions?workflow=lint-code) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-kubectl)](https://github.com/hadenlabs/zsh-kubectl/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/lint-code)](https://github.com/hadenlabs/zsh-kubectl/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/zsh-kubectl)](https://github.com/hadenlabs/zsh-kubectl/issues) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
 
 # zsh-kubectl
 
@@ -25,23 +22,12 @@ zsh-kubectl for project
 
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
-- [zsh-core](https://github.com/hadenlabs/zsh-core)
-
-* [python](https://www.python.org)
-* [taskfile](https://github.com/go-task/task)
+- [gomplate](https://github.com/hairyhenderson/gomplate)
+- [Docker](https://www.docker.com)
+- [python](https://www.python.org)
+- [taskfile](https://github.com/go-task/task)
 
 ## Installation
-
-<!-- Space: ZshKubectl -->
-<!-- Parent: Project -->
-<!-- Title: Project Installation Oh-My-Zsh -->
-
-<!-- Label: ZshKubectl -->
-<!-- Label: Project -->
-<!-- Label: Installation -->
-<!-- Label: Oh-My-Zsh -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
 
 ### [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) users
 
@@ -51,16 +37,6 @@ If you're using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), install 
 2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-kubectl`bash
 3.  Edit your `.zshrc` and add `plugins=( ... zsh-kubectl )` to your list of plugins
 4.  Open a new terminal and enjoy!
-    <!-- Space: ZshKubectl -->
-    <!-- Parent: Project -->
-    <!-- Title: Project Installation Antigen -->
-
-<!-- Label: ZshKubectl -->
-<!-- Label: Project -->
-<!-- Label: Installation -->
-<!-- Label: Antigen -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
 
 ### [antigen](https://github.com/zsh-users/antigen) users
 
@@ -69,15 +45,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), install this pl
 1.  Add `antigen bundle hadenlabs/zsh-kubectl` to your `.zshrc` where you're adding your other plugins.
 2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-kubectl` in a running zsh session.
 3.  Enjoy!
-    <!-- Space: ZshKubectl -->
-    <!-- Parent: Project -->
-    <!-- Title: Project Installation Antibody -->
-
-<!-- Label: ZshKubectl -->
-<!-- Label: Project -->
-<!-- Label: Installation -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
 
 ### [antibody](https://github.com/getantibody/antibody) users
 
@@ -93,14 +60,6 @@ to your `.zshrc` where you're adding your other plugins.
 
 2.  Either open a new terminal to force zsh to load the new plugin, or run `antibody bundle hadenlabs/zsh-kubectl` in a running zsh session.
 3.  Enjoy!
-
- <!-- Space: ZshKubectl -->
-<!-- Parent: Project -->
-<!-- Title: Functions -->
-
-<!-- Label: Functions -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
 
 ## Functions
 
