@@ -49,12 +49,11 @@ export KREW_PLUGINS=(
 )
 
 export KUBECTL_GO_PACKAGES=(
-    sigs.k8s.io/kustomize/kustomize/v3
-
     # who-can
     github.com/aquasecurity/kubectl-who-can
 )
 
 export KUBECTL_GO_INSTALL=(
     github.com/particledecay/kconf@latest
+    sigs.k8s.io/kustomize/kustomize/v4@latest
 )
