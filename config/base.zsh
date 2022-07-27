@@ -56,4 +56,5 @@ export KUBECTL_GO_PACKAGES=(
 export KUBECTL_GO_INSTALL=(
     github.com/particledecay/kconf@latest
     sigs.k8s.io/kustomize/kustomize/v4@latest
+    golang.stackrox.io/kube-linter/cmd/kube-linter@latest
 )
