@@ -29,6 +29,17 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 
 ## Installation
 
+<!-- Space: Projects -->
+<!-- Parent: ZshKubectl -->
+<!-- Title: Installation Oh-My-Zsh ZshKubectl -->
+
+<!-- Label: ZshKubectl -->
+<!-- Label: Project -->
+<!-- Label: Installation -->
+<!-- Label: Oh-My-Zsh -->
+<!-- Include: ../../disclaimer.md -->
+<!-- Include: ac:toc -->
+
 ### [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) users
 
 If you're using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), install this plugin by doing the following:
@@ -37,6 +48,15 @@ If you're using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), install 
 2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-kubectl`bash
 3.  Edit your `.zshrc` and add `plugins=( ... zsh-kubectl )` to your list of plugins
 4.  Open a new terminal and enjoy!
+    <!-- Space: Projects -->
+    <!-- Parent: ZshKubectl -->
+    <!-- Title: Installation Antigen ZshKubectl -->
+
+<!-- Label: ZshKubectl -->
+<!-- Label: Installation -->
+<!-- Label: Antigen -->
+<!-- Include: ../../disclaimer.md -->
+<!-- Include: ac:toc -->
 
 ### [antigen](https://github.com/zsh-users/antigen) users
 
@@ -45,6 +65,14 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), install this pl
 1.  Add `antigen bundle hadenlabs/zsh-kubectl` to your `.zshrc` where you're adding your other plugins.
 2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-kubectl` in a running zsh session.
 3.  Enjoy!
+    <!-- Space: Projects -->
+    <!-- Parent: ZshKubectl -->
+    <!-- Title: Installation Antibody ZshKubectl -->
+
+<!-- Label: ZshKubectl -->
+<!-- Label: Installation -->
+<!-- Include: ../../disclaimer.md -->
+<!-- Include: ac:toc -->
 
 ### [antibody](https://github.com/getantibody/antibody) users
 
@@ -60,6 +88,14 @@ to your `.zshrc` where you're adding your other plugins.
 
 2.  Either open a new terminal to force zsh to load the new plugin, or run `antibody bundle hadenlabs/zsh-kubectl` in a running zsh session.
 3.  Enjoy!
+
+ <!-- Space: Projects -->
+<!-- Parent: ZshKubectl -->
+<!-- Title: Functions ZshKubectl -->
+
+<!-- Label: Functions -->
+<!-- Include: disclaimer.md -->
+<!-- Include: ac:toc -->
 
 ## Functions
 
