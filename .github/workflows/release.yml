@@ -3,7 +3,7 @@ name: create-release
 on:
   workflow_run:
     workflows:
-      - test
+      - sonar-scan
     types:
       - completed
 

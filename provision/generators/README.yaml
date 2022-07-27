@@ -26,10 +26,13 @@ badges:
     url: https://github.com/hadenlabs/zsh-kubectl/releases
   - name: Lint
     image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/lint-code
-    url: https://github.com/hadenlabs/zsh-kubectl/actions
-  - name: Issues
-    image: https://img.shields.io/github/issues/hadenlabs/zsh-kubectl
-    url: https://github.com/hadenlabs/zsh-kubectl/issues
+    url: https://github.com/hadenlabs/zsh-kubectl/actions?workflow=lint-code
+  - name: CI
+    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/ci
+    url: https://github.com/hadenlabs/zsh-kubectl/actions?workflow=ci
+  - name: Test
+    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/test
+    url: https://github.com/hadenlabs/zsh-kubectl/actions?workflow=test
   - name: pre-commit
     image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
     url: https://github.com/pre-commit/pre-commit
@@ -45,6 +48,7 @@ requirements: |-
   This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
   - [gomplate](https://github.com/hairyhenderson/gomplate)
+  * [zsh-core](https://github.com/hadenlabs/zsh-core)
   - [Docker](https://www.docker.com)
   - [python](https://www.python.org)
   - [taskfile](https://github.com/go-task/task)
@@ -57,6 +61,9 @@ installation:
   - 'docs/include/installation/oh-my-zsh.md'
   - 'docs/include/installation/antigen.md'
   - 'docs/include/installation/antibody.md'
+
+usages:
+  - docs/usage.md
 
 include:
   - 'docs/functions.md'

@@ -12,7 +12,7 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-kubectl)](https://github.com/hadenlabs/zsh-kubectl/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/lint-code)](https://github.com/hadenlabs/zsh-kubectl/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/zsh-kubectl)](https://github.com/hadenlabs/zsh-kubectl/issues) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-kubectl)](https://github.com/hadenlabs/zsh-kubectl/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/lint-code)](https://github.com/hadenlabs/zsh-kubectl/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/ci)](https://github.com/hadenlabs/zsh-kubectl/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/hadenlabs/zsh-kubectl/test)](https://github.com/hadenlabs/zsh-kubectl/actions?workflow=test) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
 
 # zsh-kubectl
 
@@ -23,6 +23,9 @@ zsh-kubectl for project
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
 - [gomplate](https://github.com/hairyhenderson/gomplate)
+
+* [zsh-core](https://github.com/hadenlabs/zsh-core)
+
 - [Docker](https://www.docker.com)
 - [python](https://www.python.org)
 - [taskfile](https://github.com/go-task/task)
@@ -88,6 +91,10 @@ to your `.zshrc` where you're adding your other plugins.
 
 2.  Either open a new terminal to force zsh to load the new plugin, or run `antibody bundle hadenlabs/zsh-kubectl` in a running zsh session.
 3.  Enjoy!
+
+## Usage
+
+# How to use this project
 
  <!-- Space: Projects -->
 <!-- Parent: ZshKubectl -->

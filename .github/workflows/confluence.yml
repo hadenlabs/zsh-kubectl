@@ -37,7 +37,7 @@ jobs:
             *.tpl.md
 
       - name: Sync confluence
-        uses: ./
+        uses: hadenlabs/action-confluence-sync@0.1.0
         with:
           files: '${{ steps.changed-files.outputs.all_changed_files }}'
           confluence_url: ${{ secrets.CONFLUENCE_BASE_URL }}
