@@ -55,7 +55,7 @@ tasks:
       - cmd: >-
           for file in {{.FILES_CONFLUENCE}}; do
             echo "> Sync $file";
-            echo -n {{.CONFLUENCE_ACCESS_TOKEN}} | docker run \
+            docker run \
             --platform linux/amd64 \
             --rm \
             --workdir /usr/src/ \
