@@ -1,7 +1,6 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshKubectl -->
-<!-- Title: Examples ZshKubectl -->
-
+<!-- Parent: ZshKubeCtl -->
+<!-- Title: Examples ZshKubeCtl -->
 <!-- Label: Examples -->
 <!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->

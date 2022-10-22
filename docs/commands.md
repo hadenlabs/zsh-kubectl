@@ -1,8 +1,7 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshKubectl -->
-<!-- Title: Commands ZshKubectl -->
-
-<!-- Label: ZshKubectl -->
+<!-- Parent: ZshKubeCtl -->
+<!-- Title: Commands ZshKubeCtl -->
+<!-- Label: ZshKubeCtl -->
 <!-- Label: Project -->
 <!-- Label: Commands -->
 <!-- Include: disclaimer.md -->

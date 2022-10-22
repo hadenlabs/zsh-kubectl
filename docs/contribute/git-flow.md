@@ -1,8 +1,7 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshKubectl -->
-<!-- Title: Contributing GitFlow ZshKubectl -->
-
-<!-- Label: ZshKubectl -->
+<!-- Parent: ZshKubeCtl -->
+<!-- Title: Contributing GitFlow ZshKubeCtl -->
+<!-- Label: ZshKubeCtl -->
 <!-- Label: Project -->
 <!-- Label: Contributing -->
 <!-- Label: GitFlow -->
@@ -15,7 +14,7 @@ To contribute to zsh-kubectl project on [GitHub](https://github.com/hadenlabs/zs
 
 ## Getting started
 
-To follow the instructions in this guide and start contributing to zsh-kubectl project on Gitlab:
+To follow the instructions in this guide and start contributing to zsh-kubectl project on Github:
 
 1.  **Fork** the repo on GitHub
 2.  **Clone** the project to your own machine

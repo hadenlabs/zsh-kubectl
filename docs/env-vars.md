@@ -1,10 +1,9 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshKubectl -->
-<!-- Title: Env Vars ZshKubectl -->
-
-<!-- Label: ZshKubectl -->
+<!-- Parent: ZshKubeCtl -->
+<!-- Title: EnvVars ZshKubeCtl -->
+<!-- Label: ZshKubeCtl -->
 <!-- Label: Project -->
-<!-- Label: Env Vars -->
+<!-- Label: EnvVars -->
 <!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
 

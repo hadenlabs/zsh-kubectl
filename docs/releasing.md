@@ -1,8 +1,7 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshKubectl -->
-<!-- Title: Releasing ZshKubectl -->
-
-<!-- Label: ZshKubectl -->
+<!-- Parent: ZshKubeCtl -->
+<!-- Title: Releasing ZshKubeCtl -->
+<!-- Label: ZshKubeCtl -->
 <!-- Label: Project -->
 <!-- Label: Releasing -->
 <!-- Include: disclaimer.md -->

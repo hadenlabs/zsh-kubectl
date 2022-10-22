@@ -1,8 +1,7 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshKubectl -->
-<!-- Title: Security ZshKubectl -->
-
-<!-- Label: ZshKubectl -->
+<!-- Parent: ZshKubeCtl -->
+<!-- Title: Security ZshKubeCtl -->
+<!-- Label: ZshKubeCtl -->
 <!-- Label: Security -->
 <!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->

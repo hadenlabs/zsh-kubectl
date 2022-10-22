@@ -1,7 +1,6 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshKubectl -->
-<!-- Title: Roadmap ZshKubectl -->
-
+<!-- Parent: ZshKubeCtl -->
+<!-- Title: Roadmap ZshKubeCtl -->
 <!-- Label: Roadmap -->
 <!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->

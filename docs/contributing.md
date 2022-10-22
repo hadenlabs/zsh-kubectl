@@ -1,8 +1,8 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshKubectl -->
-<!-- Title: Contributing ZshKubectl -->
-
-<!-- Label: ZshKubectl -->
+<!-- Parent: ZshKubeCtl -->
+<!-- Title: Contributing ZshKubeCtl -->
+<!-- Label: ZshKubeCtl -->
+<!-- Label: Project -->
 <!-- Label: Contributing -->
 <!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
