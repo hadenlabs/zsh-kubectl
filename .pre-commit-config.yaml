@@ -4,6 +4,9 @@ exclude: >
   (?x)^(
     ^(\/|)vendor\/(.*?)$|
     .+\.node_modules\/.*$|
+    .+\.external_modules.*$|
+    .+\.terraform.*$|
+    .+\.venv.*$|
     .+\.lock$|
   )$
 
@@ -13,6 +16,11 @@ repos:
     hooks:
       - id: codespell
         args: [--ignore-words=.codespell-ignores]
+        exclude: >
+          (?x)^(
+            go.mod|
+            go.sum|
+          )$
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
     rev: v9.0.0
     hooks:
@@ -55,7 +63,12 @@ repos:
       - id: markdown-link-check
         args:
           - --config=.ci/linters/markdown-link-config.json
-        exclude: \.tpl.md$
+        exclude: >
+          (?x)^(
+            docs\/include\/terraform.md$|
+            .+\.tpl.md$|
+          )$
+
       - id: shellcheck
         exclude: >
           (?x)^(
