@@ -46,6 +46,9 @@ export KREW_PLUGINS=(
 
     schemahero
 
+    # lint
+    deprecations
+
 )
 
 export KUBECTL_GO_PACKAGES=(
