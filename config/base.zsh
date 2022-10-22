@@ -49,6 +49,9 @@ export KREW_PLUGINS=(
     # lint
     deprecations
 
+    # sniffer
+    sniff
+
 )
 
 export KUBECTL_GO_PACKAGES=(
