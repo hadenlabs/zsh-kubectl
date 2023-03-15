@@ -24,10 +24,6 @@
 # Go workspace file
 go.work
 
-### Go Patch ###
-/vendor/
-/Godeps/
-
 ### Linux ###
 *~
 
@@ -270,10 +266,10 @@ ipython_config.py
 #   intended to run in multiple environments; otherwise, check them in:
 # .python-version
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+# poetry
+#   According to pypa/poetry#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   having no cross-platform support, poetry may install dependencies that don't work, or not
 #   install all needed dependencies.
 #Pipfile.lock
 
@@ -340,6 +336,16 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+### Python Patch ###
+# Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
+poetry.toml
+
+# ruff
+.ruff_cache/
+
+# LSP config files
+pyrightconfig.json
 
 ### Sonar ###
 #Sonar generated dir

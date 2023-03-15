@@ -15,10 +15,10 @@ function kubectl::plugin::install {
 
 function kubectl::after::install {
     kubectl::plugins::install
-    kubectl::go:packages::install
+    kubectl::go::packages::install
 }
 
-function kubectl::go:packages::install {
+function kubectl::go::packages::install {
     kubectl::go::internal::packages::install
 }
 
