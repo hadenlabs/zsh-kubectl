@@ -11,16 +11,16 @@ tasks:
     desc: 'Increase major version'
     run: once
     cmds:
-      - pipenv run bumpversion major
+      - poetry run bumpversion major
 
   minor:
     desc: 'Increase minor version'
     run: once
     cmds:
-      - pipenv run bumpversion minor
+      - poetry run bumpversion minor
 
   patch:
     desc: 'Increase patch version'
     run: once
     cmds:
-      - pipenv run bumpversion patch
+      - poetry run bumpversion patch

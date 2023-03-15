@@ -104,7 +104,7 @@ tasks:
     desc: Execute upgrade packages
     cmds:
       - >-
-        pipenv run pre-commit autoupdate
+        poetry run pre-commit autoupdate
 
   setup:
     desc: Setup dependences of project
