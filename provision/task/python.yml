@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 tasks:
   check:
@@ -14,21 +14,21 @@ tasks:
     run: once
     preconditions:
       - sh: command -v python
-        msg: 'Please Install python'
+        msg: "Please Install python"
 
   check:poetry:
     desc: Exist Poetry
     run: once
     preconditions:
       - sh: command -v poetry
-        msg: 'Please Install poetry'
+        msg: "Please Install poetry"
 
   check:precommit:
     desc: Exist pre-commit
     run: once
     preconditions:
       - sh: test "poetry run command -v pre-commit"
-        msg: 'Please Install pre-commit'
+        msg: "Please Install pre-commit"
 
   setup:
     desc: Setup python dependences.

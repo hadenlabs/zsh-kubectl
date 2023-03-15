@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 tasks:
   check:
@@ -15,28 +15,28 @@ tasks:
     run: once
     preconditions:
       - sh: command -v python
-        msg: 'Please Install python'
+        msg: "Please Install python"
 
   check:poetry:
     desc: Exist Poetry
     run: once
     preconditions:
       - sh: command -v poetry
-        msg: 'Please Install poetry'
+        msg: "Please Install poetry"
 
   check:mkdocs:
     desc: Exist mkdocs
     run: once
     preconditions:
       - sh: test "poetry run command -v mkdocs"
-        msg: 'Please Install mkdocs'
+        msg: "Please Install mkdocs"
 
   check:grip:
     desc: Exist grip
     run: once
     preconditions:
       - sh: test "poetry run command -v grip"
-        msg: 'Please Install grip'
+        msg: "Please Install grip"
 
   show:
     desc: Show grip readme.
