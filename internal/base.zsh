@@ -35,7 +35,7 @@ function kubectl::internal::krew::load {
 function kubectl::internal::crossplane::install {
     message_info "Installing crossplane"
     curl -sL https://raw.githubusercontent.com/crossplane/crossplane/master/install.sh | sh
-    mv kubectl-crossplane "${KUBECTL_LOCAL_PATH_BIN}/"
+    mv crossplane "${KUBECTL_LOCAL_PATH_BIN}/"
     message_success "Installed crossplane"
 }
 
