@@ -1,3 +1,4 @@
+---
 version: "3"
 
 tasks:
@@ -34,7 +35,7 @@ tasks:
     desc: Setup python dependences.
     run: once
     cmds:
-      - poetry install --dev --skip-lock
+      - poetry install --with dev
     deps:
       - task: check:python
       - task: check:poetry
@@ -57,7 +58,7 @@ tasks:
     desc: Generate environment python.
     run: once
     cmds:
-      - poetry --venv || poetry install --skip-lock
+      - poetry env info || poetry install
     deps:
       - task: check:python
       - task: check:poetry
