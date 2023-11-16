@@ -22,6 +22,7 @@ kubectl::internal::main::factory
 kubectl::internal::krew::load
 
 if ! core::exists kubectl; then core::install kubectl; fi
+if ! core::exists helm; then core::install helm; fi
 if ! core::exists kubectl-krew; then kubectl::internal::krew::install; fi
 if ! core::exists kubectl-ctx; then core::install kubectx; fi
 if ! core::exists crossplane; then kubectl::internal::crossplane::install; fi
