@@ -20,7 +20,11 @@ export KREW_PLUGINS=(
     ns
 
     access-matrix
+
+    # certificates
     ca-cert
+    cert-manager
+
     cluster-group
     debug-shell
     df-pv
