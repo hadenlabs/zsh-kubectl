@@ -53,6 +53,12 @@ tasks:
     deps:
       - task: check:go
 
+  prettier:
+    desc: format files go.
+    run: once
+    cmds:
+      - task: fmt
+
   fmt:
     desc: format files go.
     run: once
@@ -89,7 +95,7 @@ tasks:
     desc: Run go test against code.
     run: once
     cmds:
-      - go test -v ./... -coverprofile cover.out
+      - go test -v ./... -coverprofile cover.out -timeout 60m
     deps:
       - task: check:go
 

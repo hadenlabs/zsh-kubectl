@@ -22,10 +22,8 @@ zsh-kubectl for project
 
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
+- [zsh-core](https://github.com/hadenlabs/zsh-core)
 - [gomplate](https://github.com/hairyhenderson/gomplate)
-
-* [zsh-core](https://github.com/hadenlabs/zsh-core)
-
 - [Docker](https://www.docker.com)
 - [python](https://www.python.org)
 - [taskfile](https://github.com/go-task/task)
@@ -35,12 +33,11 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 <!-- Space: Projects -->
 <!-- Parent: ZshKubectl -->
 <!-- Title: Installation Oh-My-Zsh ZshKubectl -->
-
 <!-- Label: ZshKubectl -->
 <!-- Label: Project -->
 <!-- Label: Installation -->
 <!-- Label: Oh-My-Zsh -->
-<!-- Include: ../../disclaimer.md -->
+<!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
 
 ### [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) users
@@ -54,12 +51,11 @@ If you're using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), install 
     <!-- Space: Projects -->
     <!-- Parent: ZshKubectl -->
     <!-- Title: Installation Antigen ZshKubectl -->
-
-<!-- Label: ZshKubectl -->
-<!-- Label: Installation -->
-<!-- Label: Antigen -->
-<!-- Include: ../../disclaimer.md -->
-<!-- Include: ac:toc -->
+    <!-- Label: ZshKubectl -->
+    <!-- Label: Installation -->
+    <!-- Label: Antigen -->
+    <!-- Include: docs/disclaimer.md -->
+    <!-- Include: ac:toc -->
 
 ### [antigen](https://github.com/zsh-users/antigen) users
 
@@ -71,11 +67,10 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), install this pl
     <!-- Space: Projects -->
     <!-- Parent: ZshKubectl -->
     <!-- Title: Installation Antibody ZshKubectl -->
-
-<!-- Label: ZshKubectl -->
-<!-- Label: Installation -->
-<!-- Include: ../../disclaimer.md -->
-<!-- Include: ac:toc -->
+    <!-- Label: ZshKubectl -->
+    <!-- Label: Installation -->
+    <!-- Include: docs/disclaimer.md -->
+    <!-- Include: ac:toc -->
 
 ### [antibody](https://github.com/getantibody/antibody) users
 
@@ -96,10 +91,24 @@ to your `.zshrc` where you're adding your other plugins.
 
 # How to use this project
 
+```bash
+task setup
+```
+
+## Examples
+
+<!-- Space: Projects -->
+<!-- Parent: ZshKubeCtl -->
+<!-- Title: Examples ZshKubeCtl -->
+<!-- Label: Examples -->
+<!-- Include: ./../disclaimer.md -->
+<!-- Include: ac:toc -->
+
+### Common
+
  <!-- Space: Projects -->
 <!-- Parent: ZshKubectl -->
 <!-- Title: Functions ZshKubectl -->
-
 <!-- Label: Functions -->
 <!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
@@ -133,7 +142,7 @@ Using the given version number of `MAJOR.MINOR.PATCH`, we apply the following co
 
 ## Copyright
 
-Copyright © 2018-2023 [Hadenlabs](https://hadenlabs.com)
+Copyright © 2018-2024 [Hadenlabs](https://hadenlabs.com)
 
 ## Trademarks
 

@@ -47,8 +47,8 @@ requirements: |-
 
   This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
+  - [zsh-core](https://github.com/hadenlabs/zsh-core)
   - [gomplate](https://github.com/hairyhenderson/gomplate)
-  * [zsh-core](https://github.com/hadenlabs/zsh-core)
   - [Docker](https://www.docker.com)
   - [python](https://www.python.org)
   - [taskfile](https://github.com/go-task/task)
@@ -67,3 +67,6 @@ usages:
 
 include:
   - "docs/functions.md"
+
+examples:
+  - "docs/examples/common.md"

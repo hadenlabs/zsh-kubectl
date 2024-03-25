@@ -1,10 +1,9 @@
 <!-- Space: Projects -->
 <!-- Parent: ZshKubectl -->
 <!-- Title: Installation Antibody ZshKubectl -->
-
 <!-- Label: ZshKubectl -->
 <!-- Label: Installation -->
-<!-- Include: ../../disclaimer.md -->
+<!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
 
 ### [antibody](https://github.com/getantibody/antibody) users

@@ -1,4 +1,3 @@
----
 version: "3"
 
 tasks:
@@ -35,7 +34,7 @@ tasks:
     desc: Setup python dependences.
     run: once
     cmds:
-      - poetry install --with dev
+      - poetry install
     deps:
       - task: check:python
       - task: check:poetry
