@@ -1,12 +1,11 @@
 <!-- Space: Projects -->
 <!-- Parent: ZshKubectl -->
 <!-- Title: Installation Oh-My-Zsh ZshKubectl -->
-
 <!-- Label: ZshKubectl -->
 <!-- Label: Project -->
 <!-- Label: Installation -->
 <!-- Label: Oh-My-Zsh -->
-<!-- Include: ../../disclaimer.md -->
+<!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
 
 ### [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) users
