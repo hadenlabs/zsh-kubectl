@@ -49,7 +49,6 @@ requirements: |-
 
   - [zsh-core](https://github.com/hadenlabs/zsh-core)
   - [gomplate](https://github.com/hairyhenderson/gomplate)
-  - [Docker](https://www.docker.com)
   - [python](https://www.python.org)
   - [taskfile](https://github.com/go-task/task)
 

@@ -1,6 +1,9 @@
 ci:
   autoupdate_schedule: monthly
 
+default_language_version:
+  node: 20.18.1
+
 default_stages:
   - pre-commit
 exclude: >
@@ -65,7 +68,7 @@ repos:
       - id: fix-encoding-pragma
       - id: sort-simple-yaml
   - repo: https://github.com/tcort/markdown-link-check
-    rev: v3.13.6
+    rev: v3.12.2
     hooks:
       - id: markdown-link-check
         args:
