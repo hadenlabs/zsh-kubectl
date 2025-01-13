@@ -2,7 +2,7 @@ ci:
   autoupdate_schedule: monthly
 
 default_stages:
-  - commit
+  - pre-commit
 exclude: >
   (?x)^(
     ^(\/|)vendor\/(.*?)$|

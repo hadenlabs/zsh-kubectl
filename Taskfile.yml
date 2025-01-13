@@ -2,17 +2,30 @@
 version: "3"
 
 includes:
-  changelog: ./provision/task/changelog.yml
-  confluence: ./provision/task/confluence.yml
-  python: ./provision/task/python.yml
-  git: ./provision/task/git.yml
-  docs: ./provision/task/docs.yml
-  docker: ./provision/task/docker.yml
-  version: ./provision/task/version.yml
-  plantuml: ./provision/task/plantuml.yml
-  prettier: ./provision/task/prettier.yml
-  sonar: ./provision/task/sonar.yml
-  diagrams: ./provision/diagrams/Taskfile.yml
+  pre-commit:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/pre-commit/Taskfile.yml"
+  github:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/github/Taskfile.yml"
+  changelog:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/changelog/Taskfile.yml"
+  confluence:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/confluence/Taskfile.yml"
+  python:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/python/Taskfile.yml"
+  git:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/git/Taskfile.yml"
+  docs:
+    taskfile: "provision/task/docs.yml"
+  docker:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/docker/Taskfile.yml"
+  version:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/version/Taskfile.yml"
+  plantuml:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/plantuml/Taskfile.yml"
+  prettier:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/prettier/Taskfile.yml"
+  sonar:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/sonar/Taskfile.yml"
 
 env:
   DOCKER:
@@ -37,9 +50,9 @@ vars:
   ORGANIZATION: hadenlabs
   DOCKER_PLATFORM: linux/amd64
   REVIEWERS: luismayta
-  PYTHON_VERSION: 3.11.7
+  PYTHON_VERSION: 3.11.5
   NODE_VERSION: 20.4.0
-  TERRAFORM_VERSION: 1.3.9
+  TERRAFORM_VERSION: 1.8.4
   GIT_IGNORES: python,node,go,zsh,sonar,java,maven,intellij+all,terraform,linux
   GOLANGCI_VERSION: 1.42.0
   README_FILE: README.md
