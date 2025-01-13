@@ -5,7 +5,7 @@
 # Defines functions kubectl for osx or linux.
 #
 # Authors:
-#   Luis Mayta <slovacus@gmail.com>
+#   Luis Mayta <luis@hadenlabs.com>
 #
 #
 ZSH_KUBECTL_PATH=$(dirname "${0}")
