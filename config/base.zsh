@@ -21,6 +21,9 @@ export KREW_PLUGINS=(
 
     access-matrix
 
+    # top
+    ktop
+
     # certificates
     ca-cert
     cert-manager
